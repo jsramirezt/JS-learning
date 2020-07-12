@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+
+
+/*
+/*const obj = {
+
+    Firstname : "Sandi", 
+    Lastname : 'Johnson',
+    Age : 24,
+
+
+};
+
+console.log("First name:", obj.Firstname);
+console.log("Last name:", obj.Lastname);
+console.log("Age: ", obj.Age);
+
+
+delete(obj.Firstname);
+delete(obj.Lastname);
+delete(obj.Age);
+
+console.log("First name:", obj.Firstname);
+console.log("Last name:", obj.Lastname);
+console.log("Age: ", obj.Age);
+*/
+
+
+//create an array with different type of data
+
+const a1 = ["Uno",2,3,4,5];
+const a2 = [1,'dos', null, 4, 'five'];
+const a3 = ['hello', 'world', 'array'];
+
+// have an array containing array
+const a4 = [
+    [1,2,3],
+    [4,5,6]
+
+
+];
+
+// get array value
+console.log(a1[4]);
+console.log(a2[2]);
+console.log(a3[1]);
+
+
+a2[2] = 'ya no es nulo';
+
+console.log(a2[2]);
+
+
+// display date
+
+const now = Date();
+
+
+const dt = new Date(2018, 0, 01);
+
+console.log('la fecha de hoy es:',now);
+console.log(dt);
+
+// create date with time
+
+
+const dt1 = new Date(2019,1,13,15,30,10);
+
+console.log(dt1);
+
+/*
+// create Map
+ const roles = new Map();
+
+ // assign role to the user
+ roles.set(t1,'user1');
+ roles.set(t2,'admin');
+
+
+ // Create set
+const roles1 = new Set();
+
+// Specify role to the user
+roles.add('User1');
+*/
+
+
+// Create string
+
+let str = 'we took bag from him, he said "this is my bag"';
+
+let str1 = "Don't touch my bag";
+
+let strerror = "we took bag from him, he said \" Don \' t touch my bag\" ";
+
+console.log(str);
+console.log(str1);
+console.log(strerror);
+
+
+// String Concatenation
+
+let temp = 20.5;
+let temp1 = 17.5;
+let strcat = "Weather of Mexico is " + temp + "\u00b0c"; // Unicode for Degree symbol
+let strcat1 = `Weather of Zacatlan is ${temp1} \u00b0c`;
+console.log(strcat);
+console.log(strcat1);
+
+
+// Multiline String style 1
+let str2 = "One line \nSecond line";
+console.log(str2);
+
+
+// Multiline String style 2
+let str3 = `One line style 2
+Second line style 2
+Third line style 2`;
+
+console.log(str3);
+
+
+let result1 = 5 * 5;
+let result2 = 5 + 5;
+
+console.log(result1);
+console.log(result2);
+
+
+// If Control Statement
+/*if (expression)
+    statement1;
+else
+    statement2;
+*/
+console.log("If else statements exercises");
+console.log("Exercise 1");
+
+
+*/ 
+
+    <script src="main.js"></script>
+
+
+
+</body>
+</html>
