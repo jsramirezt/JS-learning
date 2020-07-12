@@ -657,4 +657,4 @@ const c2 = new Model();
 
 // July 10th, 2020
 // Next lesson: 27 
-
+// Today is July 11th, 2020
