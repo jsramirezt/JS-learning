@@ -655,6 +655,14 @@ const c2 = new Model();
 
 // now we have two instances of Model() object
 
-// July 10th, 2020
-// Next lesson: 27 
-// Today is July 11th, 2020
+
+/* Instance of Operator */
+
+// For example
+
+const d = new Date();
+console.log(d instanceof Date); // Would be true
+
+// Declare array
+
+
