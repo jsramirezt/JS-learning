@@ -747,3 +747,43 @@ for (let ai = 1; ai <=5; ai++){
 } */
 
 // End of Lesson 28
+
+
+
+// Lesson 29
+
+// Jump Statements //
+// Continue statement
+// Will restart the loop from the next iteration
+// Syntax
+// continue;
+// Continue labeled statement syntax
+// continue labelname;
+
+let xBC = 0;
+while (xBC<10){
+	xBC++;
+	if(xBC == 5){
+		continue; // Will skip the rest of the code and continue the while loop
+	}
+	console.log(xBC);
+}
+
+
+// Return Statment
+// Syntax
+// return expression;
+
+// Example
+// We will create a function
+function adding(xDE){
+	return xDE + xDE;
+}
+
+// call function and print xDE value on the console
+console.log(adding(22));
+
+// End of Lesson 29
+
+
+
