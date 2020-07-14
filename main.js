@@ -738,12 +738,12 @@ for (let ai = 1; ai <=5; ai++){
 // identifier : statement;
 
 // For example;
-let abc1 = 1;
+//let abc1 = 1;
 
 // creating a labeled statement
-label:while (abc1 == 1){
+/* label:while (abc1 == 1){
 	console.log(abc1);
 	break label;
-}
+} */
 
 // End of Lesson 28
