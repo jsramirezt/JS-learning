@@ -713,3 +713,37 @@ console.log(print3)
 
 
 
+// Lesson 28
+// Jump Statements, afre used to jump the execution to a new location
+
+/* Break statement */
+// Syntax
+// Break;
+
+// For example;
+for (let ai = 1; ai <=5; ai++){
+	if (ai == 3) break; //  It will break the loop when the statement gets true
+ 	console.log(ai); // print ai on the console
+}
+
+// Break labeled statement
+// Syntax
+// break labelname;
+
+/* Labeled statement */
+
+// Allow us to specify a name to the specific block that we can refer it elsewhere in the program
+
+// Syntax
+// identifier : statement;
+
+// For example;
+let abc1 = 1;
+
+// creating a labeled statement
+label:while (abc1 == 1){
+	console.log(abc1);
+	break label;
+}
+
+// End of Lesson 28
