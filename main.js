@@ -664,5 +664,52 @@ const d = new Date();
 console.log(d instanceof Date); // Would be true
 
 // Declare array
+const array2 = [1,2,3];
+
+console.log(array2 instanceof Array); // Would be true
+
+console.log(array2 instanceof Date); // Would be fals, because is not instance of Date object
+
+/* Delete Operator */
+
+const obj3 = {x:1, y:2, z:3};
+
+console.log("x" in obj3); // Result would be true due X is a property of obj3
+
+delete obj3.x;
+
+console.log("x" in obj3); // Result would be false due X property was deleted from obj3
+
+// Using Array
+
+const arry3 = [1,2,3,4];
+console.log(arry3[3]); // will print 4 on the console
+
+// delete array element
+delete arry3[3];
+console.log(arry3[4]);
+
+/* Conditional operator (?:) */
+// 1stOperand ? 2ndOperand : 3rdOperand;
+
+// For example
+// if and else
+// declare variable
+let print2; // let print = "Hey everyone";
+if(print2){
+	console.log(print2);
+	}else{
+		print2 = "Welcome";
+		console.log(print2);
+}
+
+// Using conditional operator (?)
+let print3 = "Hey everyone"; // let print3; to set the variable blank
+print3 = print3 ? print3 : "Welcome";
+// If expression returns true, then it will print "Hey everyone", otherwise will print "Welcome"
+console.log(print3)
+
+// End of Lesson 27
+
 
 
