@@ -869,4 +869,41 @@ console.log(f2());
 
 // Lesson 32
 
+// Anonymous function
+
+// function() {}  // Anonymous function
+
+// Expressions
+
+/* const f3 = functio(){
+	// statements.
+}
+
+f3(); //called function
+*/
+
+
+// Anonymous functions are used to declare functions as object properties
+
+const o = {
+	name: "Anonymous Function",
+	invoke: function(){
+		return "You called me!";
+	}
+}
+
+console.log(o.invoke()); // call function using object propert by specifying parenthesis, without them the console will return the reference of the function
+
+const o1 = {
+	name:"Anonymous Function",
+	// now invoke is the method
+	invoke(){
+		return "You called me!";
+	}
+}
+console.log(o.invoke()); // call Method using object property
+
+// End of Lesson 32
+
+
 
