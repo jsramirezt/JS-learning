@@ -907,4 +907,48 @@ console.log(o.invoke()); // call Method using object property
 
 
 // Lesson 33
+// Arrow notation => to reduce the number of times to write "Function"
+/*
+1) You can ommit the Function keyword
+2) if the function take on single parameter, then you can ommit the parentheses
+3) if your function only have single statement, then you can ommit {} also 
+*/
+
+// Example
+
+const f10 = function(){ return "Hello everyone"};
+
+const f11 = () => "Hello everyone";
+
+// Using single argument
+const f20 = function (arg1) {Return `Value of the argumen: $(arg1)`}
+
+// Using arrow function with argument
+const f21 = arg1 => `Value of the Argument: ${arg1}`; // This is the same as the one above
+
+// Using two arguments
+const f30 = function(arg1, arg2){return arg1 * arg2};
+
+// Using arrow function with two arguments
+const f31 = (arg1, arg2) => arg1 * arg2;
+
+// This Keyword
+// this keyword refers to the current object where is use
+
+const obj5 = {
+	name: "Daily tuition",
+	Magic3() {return `Hello ${this.name}`;} // This keyword refers to the current object
+};
+
+
+// call magic3 method
+console.log(obj5.Magic3());
+
+// if we say
+const m1=obj5.Magic3;
+console.log(m1===obj5.Magic3); // would return true
+
+console.log(m1());
+
+// End of Lesson 33
 
