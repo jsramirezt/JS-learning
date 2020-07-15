@@ -829,5 +829,42 @@ console.log(obj4.f1()); // call function using object property
 
 
 // Lesson 31
+// Working with the Function Arguments
+// Function Arguments
+
+// Pass information to a function, they are also called parameters
+// The argument is like a variable. The argument doesn't exist until the function is called
+// Example
+// Function with two parameters or arguments
+
+function demo(aD, bD){
+		// aD and bD are formal arguments
+	// when they receive 5 and 40 values, they become actual arguments
+	return(aD + bD) / 2; // return average of two numbers
+}
+
+console.log(demo(5,40)); // Call function and pass value as argument
+
+let aD = 500,
+	bD = 400;
+console.log(demo(aD,bD)); // Call function and pass variable as value
+
+
+// Default values for arguments
+// For example
+
+/* function f2(x2){
+	return `in function : x2 = ${x2}`; // use backtick to specify string
+}
+console.log(f2());  // Without parameter
+*/
+
+function f2(x2 = "3"){
+	return `in function : X = ${x2}`;
+}
+console.log(f2());
+
+// End of Lesson 31
+
 
 
