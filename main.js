@@ -788,4 +788,46 @@ console.log(adding(22));
 
 // Lesson 30
 
+// Functions // 
+// These are a collections of statements that runs as a single unit
+// It's a "subprogram"
+// Declare with function keywork followed by function name
+// parameters are optional
+// Syntax
+/* function FunctionNAme (argument1,..., argumentN);{
+	staments;
+}
+*/
+
+// Example
+function Magic(){
+	console.log("Hello");
+	console.log("Function");
+}
+
+Magic();
+
+function Magic2(){
+	return "Hello Function";
+}
+
+Magic2();
+
+console.log(Magic2); // Referencing to the function, will not execute body of the function
+
+
+// Assign reference to the variable
+const f1 = Magic2;
+
+console.log(f1());
+
+// declare object with property
+const obj4 = {f1: Magic2};
+console.log(obj4.f1()); // call function using object property
+
+// End of Lesson 30
+
+
+
+
 
