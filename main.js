@@ -955,4 +955,57 @@ console.log(m1());
 
 
 // Lesson 34
+// Destructuring arguments
+// Declare object
+const oA = {
+	w1 : "Daily",
+	w2 : "Tuition",
+	w3 : "Tutorials"
+}
+
+// Create a function to return those 3 properties
+// Specify {} when declaring object properties
+function getData({w1, w2, w3}){
+	return `${w1} ${w2} ${w3}`;
+}
+
+// Call function
+console.log(getData(oA)); //call object from the function with destructured arguments
+
+// Using Array
+
+const arr = ["daily1", "tuition1", "tutorials1"];
+
+// declare function
+// specify [] square brackets when declaring array
+function getData1([wx1, wx2, wx3]){
+	return `${wx1} ${wx2} ${wx3}`;
+}
+
+// call function
+console.log(getData1(arr)); // call array using destructured arguments
+
+// call() Method
+
+// Calls the function with specific values 
+// Example,
+
+function Magic4(){
+	return `Welcome, to ${this.name}`;
+}
+
+// create two objects
+const objA = { name: "Daily"};
+const objB = { name: "Tuition"};
+
+// call function
+console.log(Magic4()); // without call method
+
+// call function with call() method
+console.log(Magic4.call(objA)); // called call() method with objA parameter
+
+console.log(Magic4.call(objB)); // called call() method with objB parameter
+ 
+
+// End of Lesson 34
 
