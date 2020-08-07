@@ -1010,8 +1010,3 @@ console.log(Magic4.call(objB)); // called call() method with objB parameter
 // End of Lesson 34
 
 
-
-<<<<<<< HEAD
-
-
-// Lesson 35
