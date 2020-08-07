@@ -1011,5 +1011,5 @@ console.log(Magic4.call(objB)); // called call() method with objB parameter
 
 
 
-// Lesson 35 from the ThinkPad
+// Lesson 35 from the Surface
 
